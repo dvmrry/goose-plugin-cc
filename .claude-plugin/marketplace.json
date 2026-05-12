@@ -1,21 +1,21 @@
 {
-  "name": "openai-codex",
+  "name": "dvmrry-goose",
   "owner": {
-    "name": "OpenAI"
+    "name": "dvmrry"
   },
   "metadata": {
-    "description": "Codex plugins to use in Claude Code for delegation and code review.",
-    "version": "1.0.4"
+    "description": "Goose plugins to use in Claude Code for task delegation.",
+    "version": "0.1.0"
   },
   "plugins": [
     {
-      "name": "codex",
-      "description": "Use Codex from Claude Code to review code or delegate tasks.",
-      "version": "1.0.4",
+      "name": "goose",
+      "description": "Use Goose from Claude Code to delegate tasks.",
+      "version": "0.1.0",
       "author": {
-        "name": "OpenAI"
+        "name": "dvmrry"
       },
-      "source": "./plugins/codex"
+      "source": "./plugins/goose"
     }
   ]
 }
